@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: black;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 18px 10px;
+}
+#logo{
+    display: flex;
+    color: white;
+    margin: 0 10px;
+    align-items: center;
+    /* font-size: 28px; */
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    text-decoration: none;
+    padding: 13px 20px;
+    font-weight: bold;
+    color: white;
+}
+#navbar li a:hover{
+    color:rgb(180, 175, 175);  
+}
+#introSection::before {
+    content: "";
+    /* background-color: black; */
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    height: 520px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background: center/cover no-repeat url("/static/bg3.jpg") ;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 65px;
+    align-items: center;
+    height: 520px;
+    /* background: center/cover no-repeat url("/static/bg3.jpg") ; */
+}
+#introSection div.main{
+    text-shadow: 3px 2px black;
+}
+
+#introSection div.small{
+    font-size: 50px;
+    padding: 10px;
+    text-shadow: 3px 2px black
+}
+#missionSection{
+    height: 350px;
+    width: 100%;
+    margin: auto;
+}
+#missionSection h2{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 200px;
+}
+.card h3{
+    text-align: center;
+    margin: 0px 12px;
+    margin-top: 15px;
+    margin-top: 24px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img {
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h2{
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 12px;
+}
+#sponsors{
+    height: 191px;
+    max-width: 700px;
+    margin: 27px auto;
+}
+.spImage{
+    height: 80%;
+    max-width: 200px;
+    padding: 15px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
